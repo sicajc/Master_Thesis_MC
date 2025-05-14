@@ -258,15 +258,19 @@ namespace Ramulator
       // 1. Serve completed reads, this would call the call_back function
       serve_completed_reads();
 
-      m_refresh->tick(); // This enters the refresh cycle
+      // This enters the refresh cycle
+      m_refresh->tick();
+     
 
       // 2. Try to find a request to serve.
       ReqBuffer::iterator req_it;
       ReqBuffer *buffer = nullptr;
       bool request_found = schedule_request(req_it, buffer);
 
+       
       // 2.1 Take row policy action
       m_rowpolicy->update(request_found, req_it); // The row policy actions
+      
 
       // 3. Update all plugins
       for (auto plugin : m_plugins)
@@ -284,6 +288,7 @@ namespace Ramulator
         }
 
         m_dram->issue_command(req_it->command, req_it->addr_vec);
+        m_refresh->tick(req_it);
 
         // If we are issuing the last command, set depart clock cycle and move the
         // request to the pending queue
@@ -308,6 +313,7 @@ namespace Ramulator
             buffer->remove(req_it);
           }
         }
+        
       }
 
       // Bandwidth calculation

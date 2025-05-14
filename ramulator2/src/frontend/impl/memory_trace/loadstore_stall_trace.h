@@ -23,6 +23,7 @@ namespace Ramulator
       bool is_write;
       Addr_t addr;
       int stall_cycles;
+      int type; // 0: weight, 1: KV$
     };
 
     std::vector<Trace> m_trace;

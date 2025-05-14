@@ -13,6 +13,7 @@ class IRefreshManager {
   RAMULATOR_REGISTER_INTERFACE(IRefreshManager, "RefreshManager", "Refresh Manager Interface.");
 
   public:
+    virtual void tick(ReqBuffer::iterator& req_it) = 0;
     virtual void tick() = 0;
 };
 

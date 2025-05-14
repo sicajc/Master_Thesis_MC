@@ -1,17 +1,3 @@
-add_library(ramulator-example OBJECT)
-
-target_sources(
-  ramulator-example PRIVATE
-  example_ifce.h
-  impl/example_impl.cpp
-  impl/example_serialization.cpp
-  impl/complicated_impl.h   impl/complicated_impl.cpp
-  impl/another_impl.cpp
-  impl/yetanother_impl.cpp
-)
-
-target_link_libraries(
-  ramulator
-  PRIVATE
-  ramulator-example
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:464d84a9bbbca5d0dbf9c170c247cc371e4d8ebb6f7ba2ad0410de495f32feaa
+size 347

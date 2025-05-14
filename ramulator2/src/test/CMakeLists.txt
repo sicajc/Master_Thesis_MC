@@ -1,13 +1,3 @@
-add_library(ramulator-test OBJECT)
-
-target_sources(
-  ramulator-test PRIVATE
-  test_ifce.h
-  test_impl.cpp
-)
-
-target_link_libraries(
-  ramulator
-  PRIVATE
-  ramulator-test
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:825761d82afc685a56ac3ba3c478046a1b1818302857df98ca886ac4896691b5
+size 185

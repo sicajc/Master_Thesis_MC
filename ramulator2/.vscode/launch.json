@@ -6,7 +6,7 @@
             "request": "launch",
             "program": "${workspaceFolder}/build/ramulator2",
             // "args": ["-f","${workspaceFolder}/config_files/test/testing_pattern_config.yaml"],
-            "args": ["-f","${workspaceFolder}/Trace_Verification_RTL_C++/testing_latency_verification_Consecutive_RW.yaml"],
+            "args": ["-f","/home/Dram_controller/ramulator2/config_files/test/testing_in_order_ld_st_stall_ideal.yaml"],
             "stopAtEntry": true,
             "cwd": "${workspaceFolder}/build",
             "environment": [],
@@ -24,65 +24,65 @@
                     "ignoreFailures": true
                 }
             ]
-        },
-        {
-            "name": "(UDB)  Launch",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${workspaceFolder}/build/ramulator2",
-            "args": ["-f","${workspaceFolder}/config_files/3D_DRAM_analysis_config/3D_1Gb_1_channel_config.yaml"],
-            "stopAtEntry": true,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "gdb",
-            "setupCommands": [
-                {
-                    "description": "Enable pretty-printing for gdb",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                }
-            ],
-            "miDebuggerPath": "udb",
-            "miDebuggerArgs": "",
-            "logging": {
-                "trace": false,
-                "traceResponse": false,
-                "engineLogging": false
-            },
-            "udb": "live",
-            "timezone": "",
-            "udbConfiguration": {}
-        },
-        {
-            "name": "(UDB)  Replay an Undo recording",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}/build",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "gdb",
-            "setupCommands": [
-                {
-                    "description": "Enable pretty-printing for gdb",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                }
-            ],
-            "targetArchitecture": "x86_64",
-            "miDebuggerPath": "udb",
-            "miDebuggerArgs": "",
-            "logging": {
-                "trace": false,
-                "traceResponse": false,
-                "engineLogging": false
-            },
-            "udb": "replay",
-            "timezone": "",
-            "udbConfiguration": {}
         }
+        // {
+        //     "name": "(UDB)  Launch",
+        //     "type": "cppdbg",
+        //     "request": "launch",
+        //     "program": "${workspaceFolder}/build/ramulator2",
+        //     "args": ["-f","${workspaceFolder}/config_files/3D_DRAM_analysis_config/3D_1Gb_1_channel_config.yaml"],
+        //     "stopAtEntry": true,
+        //     "cwd": "${workspaceFolder}",
+        //     "environment": [],
+        //     "externalConsole": false,
+        //     "MIMode": "gdb",
+        //     "setupCommands": [
+        //         {
+        //             "description": "Enable pretty-printing for gdb",
+        //             "text": "-enable-pretty-printing",
+        //             "ignoreFailures": true
+        //         }
+        //     ],
+        //     "miDebuggerPath": "udb",
+        //     "miDebuggerArgs": "",
+        //     "logging": {
+        //         "trace": false,
+        //         "traceResponse": false,
+        //         "engineLogging": false
+        //     },
+        //     "udb": "live",
+        //     "timezone": "",
+        //     "udbConfiguration": {}
+        // },
+        // {
+        //     "name": "(UDB)  Replay an Undo recording",
+        //     "type": "cppdbg",
+        //     "request": "launch",
+        //     "program": "",
+        //     "args": [],
+        //     "stopAtEntry": false,
+        //     "cwd": "${workspaceFolder}/build",
+        //     "environment": [],
+        //     "externalConsole": false,
+        //     "MIMode": "gdb",
+        //     "setupCommands": [
+        //         {
+        //             "description": "Enable pretty-printing for gdb",
+        //             "text": "-enable-pretty-printing",
+        //             "ignoreFailures": true
+        //         }
+        //     ],
+        //     "targetArchitecture": "x86_64",
+        //     "miDebuggerPath": "udb",
+        //     "miDebuggerArgs": "",
+        //     "logging": {
+        //         "trace": false,
+        //         "traceResponse": false,
+        //         "engineLogging": false
+        //     },
+        //     "udb": "replay",
+        //     "timezone": "",
+        //     "udbConfiguration": {}
+        // }
     ]
 }

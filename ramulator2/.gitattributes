@@ -1,0 +1,3 @@
+*.so filter=lfs diff=lfs merge=lfs -text
+ramulator2/traces/_special_pattern_trace_0.txt filter=lfs diff=lfs merge=lfs -text
+ramulator2/traces/.txt filter=lfs diff=lfs merge=lfs -text

@@ -4,7 +4,7 @@ Frontend:
   num_expected_insts: 100000
   debug: false
   traces:
-    - ../traces/_random_sequential_trace_0.txt
+    - /home/Dram_controller/ramulator2/traces/_random_sequential_trace_0.txt
     # - /home/sicajc/user/sicajc/main/Senior_3D_DRAM/ramulator2/traces/trace_0.txt
     # - /home/sicajc/DRAM_PROJECT/Senior_3D_DRAM/ramulator2/traces/trace_1.txt
     # - /home/sicajc/DRAM_PROJECT/Senior_3D_DRAM/ramulator2/traces/trace_2.txt
@@ -46,7 +46,7 @@ MemorySystem:
 
 
   Controller:
-    impl: Generic
+    impl: BankLevelController
     sample_time: 500
     bandwidth_record_file: ../cmd_records/bandwidth_record_random_sequential.txt
     Scheduler:

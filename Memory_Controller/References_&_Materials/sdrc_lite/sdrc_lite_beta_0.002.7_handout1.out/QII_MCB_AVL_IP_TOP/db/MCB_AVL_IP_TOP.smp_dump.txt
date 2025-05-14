@@ -1,35 +1,3 @@
-
-State Machine - |MCB_AVL_IP_TOP|MCB_TOP:mcb_top0|MCB_CTRL:mcb_ctrl0|MCB_DAT_CTRL:mcb_dat_ctrl0|MCB_DAT_FSM:mcb_dat_fsm0|d_st_now
-Name d_st_now.d_st_wr d_st_now.d_st_rd d_st_now.d_st_cl d_st_now.d_st_idle 
-d_st_now.d_st_idle 0 0 0 0 
-d_st_now.d_st_cl 0 0 1 1 
-d_st_now.d_st_rd 0 1 0 1 
-d_st_now.d_st_wr 1 0 0 1 
-
-State Machine - |MCB_AVL_IP_TOP|MCB_TOP:mcb_top0|MCB_CTRL:mcb_ctrl0|MCB_CMD_CTRL:mcb_cmd_ctrl0|MCB_CMD_FSM:mcb_cmd_fsm0|c_st_now
-Name c_st_now.c_st_wra_w c_st_now.c_st_wra c_st_now.c_st_wr_w c_st_now.c_st_wr c_st_now.c_st_rda_w c_st_now.c_st_rda c_st_now.c_st_rd_w c_st_now.c_st_rd c_st_now.c_st_trcd c_st_now.c_st_act c_st_now.c_st_trfc c_st_now.c_st_ref c_st_now.c_st_ready c_st_now.c_st_wait 
-c_st_now.c_st_wait 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-c_st_now.c_st_ready 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
-c_st_now.c_st_ref 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
-c_st_now.c_st_trfc 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
-c_st_now.c_st_act 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
-c_st_now.c_st_trcd 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
-c_st_now.c_st_rd 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
-c_st_now.c_st_rd_w 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
-c_st_now.c_st_rda 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
-c_st_now.c_st_rda_w 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
-c_st_now.c_st_wr 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
-c_st_now.c_st_wr_w 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
-c_st_now.c_st_wra 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
-c_st_now.c_st_wra_w 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
-
-State Machine - |MCB_AVL_IP_TOP|MCB_TOP:mcb_top0|MCB_CTRL:mcb_ctrl0|MCB_INI_CTRL:mcb_ini_ctrl0|MCB_INI_FSM:mcb_ini_fsm0|i_st_now
-Name i_st_now.i_st_ready i_st_now.i_st_tmrd i_st_now.i_st_lmr i_st_now.i_st_trfc i_st_now.i_st_ref i_st_now.i_st_trp i_st_now.i_st_prea i_st_now.i_st_wait 
-i_st_now.i_st_wait 0 0 0 0 0 0 0 0 
-i_st_now.i_st_prea 0 0 0 0 0 0 1 1 
-i_st_now.i_st_trp 0 0 0 0 0 1 0 1 
-i_st_now.i_st_ref 0 0 0 0 1 0 0 1 
-i_st_now.i_st_trfc 0 0 0 1 0 0 0 1 
-i_st_now.i_st_lmr 0 0 1 0 0 0 0 1 
-i_st_now.i_st_tmrd 0 1 0 0 0 0 0 1 
-i_st_now.i_st_ready 1 0 0 0 0 0 0 1 
+version https://git-lfs.github.com/spec/v1
+oid sha256:3613f16c33254adf5ba542dd13d065820f42756849e2a8730e3cc8044cf3010a
+size 1948

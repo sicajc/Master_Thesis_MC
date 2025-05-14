@@ -1,0 +1,602 @@
+[
+{
+  "directory": "/home/Dram_controller/ramulator2/build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIE -o CMakeFiles/ramulator-exe.dir/src/main.cpp.o -c /home/Dram_controller/ramulator2/src/main.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/main.cpp",
+  "output": "CMakeFiles/ramulator-exe.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_NO_CONTRIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/yaml-cpp/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -o CMakeFiles/yaml-cpp.dir/src/binary.cpp.o -c /home/Dram_controller/ramulator2/ext/yaml-cpp/src/binary.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/yaml-cpp/src/binary.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/binary.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_NO_CONTRIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/yaml-cpp/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -o CMakeFiles/yaml-cpp.dir/src/convert.cpp.o -c /home/Dram_controller/ramulator2/ext/yaml-cpp/src/convert.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/yaml-cpp/src/convert.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/convert.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_NO_CONTRIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/yaml-cpp/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -o CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.o -c /home/Dram_controller/ramulator2/ext/yaml-cpp/src/depthguard.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/yaml-cpp/src/depthguard.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_NO_CONTRIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/yaml-cpp/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -o CMakeFiles/yaml-cpp.dir/src/directives.cpp.o -c /home/Dram_controller/ramulator2/ext/yaml-cpp/src/directives.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/yaml-cpp/src/directives.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/directives.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_NO_CONTRIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/yaml-cpp/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -o CMakeFiles/yaml-cpp.dir/src/emit.cpp.o -c /home/Dram_controller/ramulator2/ext/yaml-cpp/src/emit.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/yaml-cpp/src/emit.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emit.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_NO_CONTRIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/yaml-cpp/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -o CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o -c /home/Dram_controller/ramulator2/ext/yaml-cpp/src/emitfromevents.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/yaml-cpp/src/emitfromevents.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_NO_CONTRIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/yaml-cpp/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -o CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o -c /home/Dram_controller/ramulator2/ext/yaml-cpp/src/emitter.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/yaml-cpp/src/emitter.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_NO_CONTRIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/yaml-cpp/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -o CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o -c /home/Dram_controller/ramulator2/ext/yaml-cpp/src/emitterstate.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/yaml-cpp/src/emitterstate.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_NO_CONTRIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/yaml-cpp/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -o CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o -c /home/Dram_controller/ramulator2/ext/yaml-cpp/src/emitterutils.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/yaml-cpp/src/emitterutils.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_NO_CONTRIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/yaml-cpp/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -o CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o -c /home/Dram_controller/ramulator2/ext/yaml-cpp/src/exceptions.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/yaml-cpp/src/exceptions.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_NO_CONTRIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/yaml-cpp/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -o CMakeFiles/yaml-cpp.dir/src/exp.cpp.o -c /home/Dram_controller/ramulator2/ext/yaml-cpp/src/exp.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/yaml-cpp/src/exp.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/exp.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_NO_CONTRIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/yaml-cpp/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -o CMakeFiles/yaml-cpp.dir/src/memory.cpp.o -c /home/Dram_controller/ramulator2/ext/yaml-cpp/src/memory.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/yaml-cpp/src/memory.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/memory.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_NO_CONTRIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/yaml-cpp/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -o CMakeFiles/yaml-cpp.dir/src/node.cpp.o -c /home/Dram_controller/ramulator2/ext/yaml-cpp/src/node.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/yaml-cpp/src/node.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/node.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_NO_CONTRIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/yaml-cpp/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -o CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o -c /home/Dram_controller/ramulator2/ext/yaml-cpp/src/node_data.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/yaml-cpp/src/node_data.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_NO_CONTRIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/yaml-cpp/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -o CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o -c /home/Dram_controller/ramulator2/ext/yaml-cpp/src/nodebuilder.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/yaml-cpp/src/nodebuilder.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_NO_CONTRIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/yaml-cpp/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -o CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o -c /home/Dram_controller/ramulator2/ext/yaml-cpp/src/nodeevents.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/yaml-cpp/src/nodeevents.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_NO_CONTRIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/yaml-cpp/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -o CMakeFiles/yaml-cpp.dir/src/null.cpp.o -c /home/Dram_controller/ramulator2/ext/yaml-cpp/src/null.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/yaml-cpp/src/null.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/null.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_NO_CONTRIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/yaml-cpp/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -o CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o -c /home/Dram_controller/ramulator2/ext/yaml-cpp/src/ostream_wrapper.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/yaml-cpp/src/ostream_wrapper.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_NO_CONTRIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/yaml-cpp/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -o CMakeFiles/yaml-cpp.dir/src/parse.cpp.o -c /home/Dram_controller/ramulator2/ext/yaml-cpp/src/parse.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/yaml-cpp/src/parse.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/parse.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_NO_CONTRIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/yaml-cpp/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -o CMakeFiles/yaml-cpp.dir/src/parser.cpp.o -c /home/Dram_controller/ramulator2/ext/yaml-cpp/src/parser.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/yaml-cpp/src/parser.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/parser.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_NO_CONTRIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/yaml-cpp/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -o CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o -c /home/Dram_controller/ramulator2/ext/yaml-cpp/src/regex_yaml.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/yaml-cpp/src/regex_yaml.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_NO_CONTRIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/yaml-cpp/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -o CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o -c /home/Dram_controller/ramulator2/ext/yaml-cpp/src/scanner.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/yaml-cpp/src/scanner.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_NO_CONTRIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/yaml-cpp/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -o CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o -c /home/Dram_controller/ramulator2/ext/yaml-cpp/src/scanscalar.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/yaml-cpp/src/scanscalar.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_NO_CONTRIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/yaml-cpp/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -o CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o -c /home/Dram_controller/ramulator2/ext/yaml-cpp/src/scantag.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/yaml-cpp/src/scantag.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_NO_CONTRIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/yaml-cpp/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -o CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o -c /home/Dram_controller/ramulator2/ext/yaml-cpp/src/scantoken.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/yaml-cpp/src/scantoken.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_NO_CONTRIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/yaml-cpp/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -o CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o -c /home/Dram_controller/ramulator2/ext/yaml-cpp/src/simplekey.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/yaml-cpp/src/simplekey.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_NO_CONTRIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/yaml-cpp/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -o CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o -c /home/Dram_controller/ramulator2/ext/yaml-cpp/src/singledocparser.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/yaml-cpp/src/singledocparser.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_NO_CONTRIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/yaml-cpp/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -o CMakeFiles/yaml-cpp.dir/src/stream.cpp.o -c /home/Dram_controller/ramulator2/ext/yaml-cpp/src/stream.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/yaml-cpp/src/stream.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/stream.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/yaml-cpp-build",
+  "command": "/usr/bin/c++ -DYAML_CPP_NO_CONTRIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/yaml-cpp/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -Wall -Wextra -Wshadow -Weffc++ -Wno-long-long -pedantic -pedantic-errors -o CMakeFiles/yaml-cpp.dir/src/tag.cpp.o -c /home/Dram_controller/ramulator2/ext/yaml-cpp/src/tag.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/yaml-cpp/src/tag.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/tag.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/spdlog.dir/src/spdlog.cpp.o -c /home/Dram_controller/ramulator2/ext/spdlog/src/spdlog.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/spdlog/src/spdlog.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o -c /home/Dram_controller/ramulator2/ext/spdlog/src/stdout_sinks.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/spdlog/src/stdout_sinks.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/spdlog.dir/src/color_sinks.cpp.o -c /home/Dram_controller/ramulator2/ext/spdlog/src/color_sinks.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/spdlog/src/color_sinks.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/spdlog.dir/src/file_sinks.cpp.o -c /home/Dram_controller/ramulator2/ext/spdlog/src/file_sinks.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/spdlog/src/file_sinks.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/spdlog.dir/src/async.cpp.o -c /home/Dram_controller/ramulator2/ext/spdlog/src/async.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/spdlog/src/async.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/spdlog.dir/src/cfg.cpp.o -c /home/Dram_controller/ramulator2/ext/spdlog/src/cfg.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/spdlog/src/cfg.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/_deps/spdlog-build",
+  "command": "/usr/bin/c++ -DSPDLOG_COMPILED_LIB -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o -c /home/Dram_controller/ramulator2/ext/spdlog/src/bundled_fmtlib_format.cpp",
+  "file": "/home/Dram_controller/ramulator2/ext/spdlog/src/bundled_fmtlib_format.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/base",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-base.dir/factory.cpp.o -c /home/Dram_controller/ramulator2/src/base/factory.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/base/factory.cpp",
+  "output": "src/base/CMakeFiles/ramulator-base.dir/factory.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/base",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-base.dir/logging.cpp.o -c /home/Dram_controller/ramulator2/src/base/logging.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/base/logging.cpp",
+  "output": "src/base/CMakeFiles/ramulator-base.dir/logging.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/base",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-base.dir/utils.cpp.o -c /home/Dram_controller/ramulator2/src/base/utils.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/base/utils.cpp",
+  "output": "src/base/CMakeFiles/ramulator-base.dir/utils.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/base",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-base.dir/config.cpp.o -c /home/Dram_controller/ramulator2/src/base/config.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/base/config.cpp",
+  "output": "src/base/CMakeFiles/ramulator-base.dir/config.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/base",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-base.dir/stats.cpp.o -c /home/Dram_controller/ramulator2/src/base/stats.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/base/stats.cpp",
+  "output": "src/base/CMakeFiles/ramulator-base.dir/stats.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/base",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-base.dir/request.cpp.o -c /home/Dram_controller/ramulator2/src/base/request.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/base/request.cpp",
+  "output": "src/base/CMakeFiles/ramulator-base.dir/request.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/test",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-test.dir/test_impl.cpp.o -c /home/Dram_controller/ramulator2/src/test/test_impl.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/test/test_impl.cpp",
+  "output": "src/test/CMakeFiles/ramulator-test.dir/test_impl.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/frontend",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-frontend.dir/impl/memory_trace/loadstore_trace.cpp.o -c /home/Dram_controller/ramulator2/src/frontend/impl/memory_trace/loadstore_trace.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/frontend/impl/memory_trace/loadstore_trace.cpp",
+  "output": "src/frontend/CMakeFiles/ramulator-frontend.dir/impl/memory_trace/loadstore_trace.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/frontend",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-frontend.dir/impl/memory_trace/readwrite_trace.cpp.o -c /home/Dram_controller/ramulator2/src/frontend/impl/memory_trace/readwrite_trace.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/frontend/impl/memory_trace/readwrite_trace.cpp",
+  "output": "src/frontend/CMakeFiles/ramulator-frontend.dir/impl/memory_trace/readwrite_trace.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/frontend",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-frontend.dir/impl/memory_trace/loadstore_stall_trace.cpp.o -c /home/Dram_controller/ramulator2/src/frontend/impl/memory_trace/loadstore_stall_trace.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/frontend/impl/memory_trace/loadstore_stall_trace.cpp",
+  "output": "src/frontend/CMakeFiles/ramulator-frontend.dir/impl/memory_trace/loadstore_stall_trace.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/frontend",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-frontend.dir/impl/memory_trace/multi_loadstore_stall.cpp.o -c /home/Dram_controller/ramulator2/src/frontend/impl/memory_trace/multi_loadstore_stall.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/frontend/impl/memory_trace/multi_loadstore_stall.cpp",
+  "output": "src/frontend/CMakeFiles/ramulator-frontend.dir/impl/memory_trace/multi_loadstore_stall.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/frontend",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-frontend.dir/impl/processor/simpleO3/simpleO3.cpp.o -c /home/Dram_controller/ramulator2/src/frontend/impl/processor/simpleO3/simpleO3.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/frontend/impl/processor/simpleO3/simpleO3.cpp",
+  "output": "src/frontend/CMakeFiles/ramulator-frontend.dir/impl/processor/simpleO3/simpleO3.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/frontend",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-frontend.dir/impl/processor/simpleO3/core.cpp.o -c /home/Dram_controller/ramulator2/src/frontend/impl/processor/simpleO3/core.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/frontend/impl/processor/simpleO3/core.cpp",
+  "output": "src/frontend/CMakeFiles/ramulator-frontend.dir/impl/processor/simpleO3/core.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/frontend",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-frontend.dir/impl/processor/simpleO3/llc.cpp.o -c /home/Dram_controller/ramulator2/src/frontend/impl/processor/simpleO3/llc.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/frontend/impl/processor/simpleO3/llc.cpp",
+  "output": "src/frontend/CMakeFiles/ramulator-frontend.dir/impl/processor/simpleO3/llc.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/frontend",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-frontend.dir/impl/processor/simpleO3/trace.cpp.o -c /home/Dram_controller/ramulator2/src/frontend/impl/processor/simpleO3/trace.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/frontend/impl/processor/simpleO3/trace.cpp",
+  "output": "src/frontend/CMakeFiles/ramulator-frontend.dir/impl/processor/simpleO3/trace.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/frontend",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-frontend.dir/impl/processor/bhO3/bhO3.cpp.o -c /home/Dram_controller/ramulator2/src/frontend/impl/processor/bhO3/bhO3.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/frontend/impl/processor/bhO3/bhO3.cpp",
+  "output": "src/frontend/CMakeFiles/ramulator-frontend.dir/impl/processor/bhO3/bhO3.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/frontend",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-frontend.dir/impl/processor/bhO3/bhcore.cpp.o -c /home/Dram_controller/ramulator2/src/frontend/impl/processor/bhO3/bhcore.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/frontend/impl/processor/bhO3/bhcore.cpp",
+  "output": "src/frontend/CMakeFiles/ramulator-frontend.dir/impl/processor/bhO3/bhcore.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/frontend",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-frontend.dir/impl/processor/bhO3/bhllc.cpp.o -c /home/Dram_controller/ramulator2/src/frontend/impl/processor/bhO3/bhllc.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/frontend/impl/processor/bhO3/bhllc.cpp",
+  "output": "src/frontend/CMakeFiles/ramulator-frontend.dir/impl/processor/bhO3/bhllc.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/frontend",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-frontend.dir/impl/external_wrapper/gem5_frontend.cpp.o -c /home/Dram_controller/ramulator2/src/frontend/impl/external_wrapper/gem5_frontend.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/frontend/impl/external_wrapper/gem5_frontend.cpp",
+  "output": "src/frontend/CMakeFiles/ramulator-frontend.dir/impl/external_wrapper/gem5_frontend.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/translation",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-translation.dir/impl/no_translation.cpp.o -c /home/Dram_controller/ramulator2/src/translation/impl/no_translation.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/translation/impl/no_translation.cpp",
+  "output": "src/translation/CMakeFiles/ramulator-translation.dir/impl/no_translation.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/translation",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-translation.dir/impl/random_translation.cpp.o -c /home/Dram_controller/ramulator2/src/translation/impl/random_translation.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/translation/impl/random_translation.cpp",
+  "output": "src/translation/CMakeFiles/ramulator-translation.dir/impl/random_translation.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/memory_system",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-memorysystem.dir/impl/bh_DRAM_system.cpp.o -c /home/Dram_controller/ramulator2/src/memory_system/impl/bh_DRAM_system.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/memory_system/impl/bh_DRAM_system.cpp",
+  "output": "src/memory_system/CMakeFiles/ramulator-memorysystem.dir/impl/bh_DRAM_system.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/memory_system",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-memorysystem.dir/impl/dummy_memory_system.cpp.o -c /home/Dram_controller/ramulator2/src/memory_system/impl/dummy_memory_system.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/memory_system/impl/dummy_memory_system.cpp",
+  "output": "src/memory_system/CMakeFiles/ramulator-memorysystem.dir/impl/dummy_memory_system.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/memory_system",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-memorysystem.dir/impl/generic_DRAM_system.cpp.o -c /home/Dram_controller/ramulator2/src/memory_system/impl/generic_DRAM_system.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/memory_system/impl/generic_DRAM_system.cpp",
+  "output": "src/memory_system/CMakeFiles/ramulator-memorysystem.dir/impl/generic_DRAM_system.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/addr_mapper",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-addrmapper.dir/impl/linear_mappers.cpp.o -c /home/Dram_controller/ramulator2/src/addr_mapper/impl/linear_mappers.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/addr_mapper/impl/linear_mappers.cpp",
+  "output": "src/addr_mapper/CMakeFiles/ramulator-addrmapper.dir/impl/linear_mappers.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/addr_mapper",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-addrmapper.dir/impl/rit.cpp.o -c /home/Dram_controller/ramulator2/src/addr_mapper/impl/rit.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/addr_mapper/impl/rit.cpp",
+  "output": "src/addr_mapper/CMakeFiles/ramulator-addrmapper.dir/impl/rit.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-dram.dir/impl/DDR3.cpp.o -c /home/Dram_controller/ramulator2/src/dram/impl/DDR3.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram/impl/DDR3.cpp",
+  "output": "src/dram/CMakeFiles/ramulator-dram.dir/impl/DDR3.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-dram.dir/impl/DDR4.cpp.o -c /home/Dram_controller/ramulator2/src/dram/impl/DDR4.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram/impl/DDR4.cpp",
+  "output": "src/dram/CMakeFiles/ramulator-dram.dir/impl/DDR4.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-dram.dir/impl/DDR4-VRR.cpp.o -c /home/Dram_controller/ramulator2/src/dram/impl/DDR4-VRR.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram/impl/DDR4-VRR.cpp",
+  "output": "src/dram/CMakeFiles/ramulator-dram.dir/impl/DDR4-VRR.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-dram.dir/impl/DDR4-RVRR.cpp.o -c /home/Dram_controller/ramulator2/src/dram/impl/DDR4-RVRR.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram/impl/DDR4-RVRR.cpp",
+  "output": "src/dram/CMakeFiles/ramulator-dram.dir/impl/DDR4-RVRR.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-dram.dir/impl/DDR5.cpp.o -c /home/Dram_controller/ramulator2/src/dram/impl/DDR5.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram/impl/DDR5.cpp",
+  "output": "src/dram/CMakeFiles/ramulator-dram.dir/impl/DDR5.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-dram.dir/impl/DDR5-VRR.cpp.o -c /home/Dram_controller/ramulator2/src/dram/impl/DDR5-VRR.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram/impl/DDR5-VRR.cpp",
+  "output": "src/dram/CMakeFiles/ramulator-dram.dir/impl/DDR5-VRR.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-dram.dir/impl/DDR5-RVRR.cpp.o -c /home/Dram_controller/ramulator2/src/dram/impl/DDR5-RVRR.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram/impl/DDR5-RVRR.cpp",
+  "output": "src/dram/CMakeFiles/ramulator-dram.dir/impl/DDR5-RVRR.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-dram.dir/impl/LPDDR5.cpp.o -c /home/Dram_controller/ramulator2/src/dram/impl/LPDDR5.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram/impl/LPDDR5.cpp",
+  "output": "src/dram/CMakeFiles/ramulator-dram.dir/impl/LPDDR5.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-dram.dir/impl/HBM.cpp.o -c /home/Dram_controller/ramulator2/src/dram/impl/HBM.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram/impl/HBM.cpp",
+  "output": "src/dram/CMakeFiles/ramulator-dram.dir/impl/HBM.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-dram.dir/impl/HBM2.cpp.o -c /home/Dram_controller/ramulator2/src/dram/impl/HBM2.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram/impl/HBM2.cpp",
+  "output": "src/dram/CMakeFiles/ramulator-dram.dir/impl/HBM2.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-dram.dir/impl/HBM3.cpp.o -c /home/Dram_controller/ramulator2/src/dram/impl/HBM3.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram/impl/HBM3.cpp",
+  "output": "src/dram/CMakeFiles/ramulator-dram.dir/impl/HBM3.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram_controller",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-controller.dir/impl/bh_dram_controller.cpp.o -c /home/Dram_controller/ramulator2/src/dram_controller/impl/bh_dram_controller.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram_controller/impl/bh_dram_controller.cpp",
+  "output": "src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/bh_dram_controller.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram_controller",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-controller.dir/impl/dummy_controller.cpp.o -c /home/Dram_controller/ramulator2/src/dram_controller/impl/dummy_controller.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram_controller/impl/dummy_controller.cpp",
+  "output": "src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/dummy_controller.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram_controller",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-controller.dir/impl/generic_dram_controller.cpp.o -c /home/Dram_controller/ramulator2/src/dram_controller/impl/generic_dram_controller.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram_controller/impl/generic_dram_controller.cpp",
+  "output": "src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/generic_dram_controller.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram_controller",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-controller.dir/impl/prac_dram_controller.cpp.o -c /home/Dram_controller/ramulator2/src/dram_controller/impl/prac_dram_controller.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram_controller/impl/prac_dram_controller.cpp",
+  "output": "src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/prac_dram_controller.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram_controller",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-controller.dir/impl/bank_level_dram_controller.cpp.o -c /home/Dram_controller/ramulator2/src/dram_controller/impl/bank_level_dram_controller.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram_controller/impl/bank_level_dram_controller.cpp",
+  "output": "src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/bank_level_dram_controller.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram_controller",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-controller.dir/impl/scheduler/bh_scheduler.cpp.o -c /home/Dram_controller/ramulator2/src/dram_controller/impl/scheduler/bh_scheduler.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram_controller/impl/scheduler/bh_scheduler.cpp",
+  "output": "src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/scheduler/bh_scheduler.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram_controller",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-controller.dir/impl/scheduler/blocking_scheduler.cpp.o -c /home/Dram_controller/ramulator2/src/dram_controller/impl/scheduler/blocking_scheduler.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram_controller/impl/scheduler/blocking_scheduler.cpp",
+  "output": "src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/scheduler/blocking_scheduler.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram_controller",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-controller.dir/impl/scheduler/generic_scheduler.cpp.o -c /home/Dram_controller/ramulator2/src/dram_controller/impl/scheduler/generic_scheduler.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram_controller/impl/scheduler/generic_scheduler.cpp",
+  "output": "src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/scheduler/generic_scheduler.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram_controller",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-controller.dir/impl/scheduler/bliss_scheduler.cpp.o -c /home/Dram_controller/ramulator2/src/dram_controller/impl/scheduler/bliss_scheduler.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram_controller/impl/scheduler/bliss_scheduler.cpp",
+  "output": "src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/scheduler/bliss_scheduler.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram_controller",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-controller.dir/impl/scheduler/prac_scheduler.cpp.o -c /home/Dram_controller/ramulator2/src/dram_controller/impl/scheduler/prac_scheduler.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram_controller/impl/scheduler/prac_scheduler.cpp",
+  "output": "src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/scheduler/prac_scheduler.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram_controller",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-controller.dir/impl/refresh/all_bank_refresh.cpp.o -c /home/Dram_controller/ramulator2/src/dram_controller/impl/refresh/all_bank_refresh.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram_controller/impl/refresh/all_bank_refresh.cpp",
+  "output": "src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/refresh/all_bank_refresh.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram_controller",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-controller.dir/impl/rowpolicy/basic_rowpolicies.cpp.o -c /home/Dram_controller/ramulator2/src/dram_controller/impl/rowpolicy/basic_rowpolicies.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram_controller/impl/rowpolicy/basic_rowpolicies.cpp",
+  "output": "src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/rowpolicy/basic_rowpolicies.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram_controller",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-controller.dir/impl/plugin/trace_recorder.cpp.o -c /home/Dram_controller/ramulator2/src/dram_controller/impl/plugin/trace_recorder.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram_controller/impl/plugin/trace_recorder.cpp",
+  "output": "src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/plugin/trace_recorder.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram_controller",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-controller.dir/impl/plugin/cmd_counter.cpp.o -c /home/Dram_controller/ramulator2/src/dram_controller/impl/plugin/cmd_counter.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram_controller/impl/plugin/cmd_counter.cpp",
+  "output": "src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/plugin/cmd_counter.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram_controller",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-controller.dir/impl/plugin/para.cpp.o -c /home/Dram_controller/ramulator2/src/dram_controller/impl/plugin/para.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram_controller/impl/plugin/para.cpp",
+  "output": "src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/plugin/para.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram_controller",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-controller.dir/impl/plugin/graphene.cpp.o -c /home/Dram_controller/ramulator2/src/dram_controller/impl/plugin/graphene.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram_controller/impl/plugin/graphene.cpp",
+  "output": "src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/plugin/graphene.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram_controller",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-controller.dir/impl/plugin/oracle_rh.cpp.o -c /home/Dram_controller/ramulator2/src/dram_controller/impl/plugin/oracle_rh.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram_controller/impl/plugin/oracle_rh.cpp",
+  "output": "src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/plugin/oracle_rh.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram_controller",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-controller.dir/impl/plugin/twice.cpp.o -c /home/Dram_controller/ramulator2/src/dram_controller/impl/plugin/twice.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram_controller/impl/plugin/twice.cpp",
+  "output": "src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/plugin/twice.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram_controller",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-controller.dir/impl/plugin/hydra.cpp.o -c /home/Dram_controller/ramulator2/src/dram_controller/impl/plugin/hydra.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram_controller/impl/plugin/hydra.cpp",
+  "output": "src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/plugin/hydra.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram_controller",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-controller.dir/impl/plugin/rrs.cpp.o -c /home/Dram_controller/ramulator2/src/dram_controller/impl/plugin/rrs.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram_controller/impl/plugin/rrs.cpp",
+  "output": "src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/plugin/rrs.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram_controller",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-controller.dir/impl/plugin/aqua.cpp.o -c /home/Dram_controller/ramulator2/src/dram_controller/impl/plugin/aqua.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram_controller/impl/plugin/aqua.cpp",
+  "output": "src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/plugin/aqua.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram_controller",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-controller.dir/impl/plugin/rfm_manager.cpp.o -c /home/Dram_controller/ramulator2/src/dram_controller/impl/plugin/rfm_manager.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram_controller/impl/plugin/rfm_manager.cpp",
+  "output": "src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/plugin/rfm_manager.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram_controller",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-controller.dir/impl/plugin/blockhammer/blockhammer.cpp.o -c /home/Dram_controller/ramulator2/src/dram_controller/impl/plugin/blockhammer/blockhammer.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram_controller/impl/plugin/blockhammer/blockhammer.cpp",
+  "output": "src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/plugin/blockhammer/blockhammer.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram_controller",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-controller.dir/impl/plugin/device_config/device_config.cpp.o -c /home/Dram_controller/ramulator2/src/dram_controller/impl/plugin/device_config/device_config.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram_controller/impl/plugin/device_config/device_config.cpp",
+  "output": "src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/plugin/device_config/device_config.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram_controller",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-controller.dir/impl/plugin/bliss/bliss.cpp.o -c /home/Dram_controller/ramulator2/src/dram_controller/impl/plugin/bliss/bliss.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram_controller/impl/plugin/bliss/bliss.cpp",
+  "output": "src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/plugin/bliss/bliss.cpp.o"
+},
+{
+  "directory": "/home/Dram_controller/ramulator2/build/src/dram_controller",
+  "command": "/usr/bin/c++  -I/home/Dram_controller/ramulator2/ext/yaml-cpp/include -I/home/Dram_controller/ramulator2/ext/spdlog/include -I/home/Dram_controller/ramulator2/ext/argparse/include -I/home/Dram_controller/ramulator2/src -g -g -DRAMULATOR_DEBUG -std=c++20 -fPIC -o CMakeFiles/ramulator-controller.dir/impl/plugin/prac/prac.cpp.o -c /home/Dram_controller/ramulator2/src/dram_controller/impl/plugin/prac/prac.cpp",
+  "file": "/home/Dram_controller/ramulator2/src/dram_controller/impl/plugin/prac/prac.cpp",
+  "output": "src/dram_controller/CMakeFiles/ramulator-controller.dir/impl/plugin/prac/prac.cpp.o"
+}
+]

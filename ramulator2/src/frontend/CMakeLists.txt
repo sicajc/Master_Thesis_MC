@@ -1,29 +1,3 @@
-add_library(ramulator-frontend OBJECT)
-
-target_sources(
-  ramulator-frontend PRIVATE
-  frontend.h
-
-  impl/memory_trace/loadstore_trace.cpp
-  impl/memory_trace/readwrite_trace.cpp
-  impl/memory_trace/loadstore_stall_trace.cpp
-  impl/memory_trace/loadstore_stall_trace.h
-  impl/memory_trace/multi_loadstore_stall.cpp
-
-  impl/processor/simpleO3/simpleO3.cpp
-  impl/processor/simpleO3/core.h      impl/processor/simpleO3/core.cpp
-  impl/processor/simpleO3/llc.h       impl/processor/simpleO3/llc.cpp
-  impl/processor/simpleO3/trace.h     impl/processor/simpleO3/trace.cpp
-
-  impl/processor/bhO3/bhO3.h      impl/processor/bhO3/bhO3.cpp
-  impl/processor/bhO3/bhcore.h    impl/processor/bhO3/bhcore.cpp
-  impl/processor/bhO3/bhllc.h     impl/processor/bhO3/bhllc.cpp
-
-  impl/external_wrapper/gem5_frontend.cpp
-)
-
-target_link_libraries(
-  ramulator
-  PRIVATE
-  ramulator-frontend
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:9066d4cfa2b66e9bff601434e8f2c5953cf6b5edcf36f4181bc5d79ff6747515
+size 902

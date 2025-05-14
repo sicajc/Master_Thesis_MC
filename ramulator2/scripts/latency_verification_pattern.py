@@ -49,25 +49,30 @@ def generate_st_ld_trace(filename,filename2,pattern_type,num_lines,gen_stall,loa
             address = (gen_channel_num << (row_bits + column_bits + word_bits)) | (gen_row_bits << (column_bits + word_bits)) | (gen_column_bits << word_bits) | gen_byte_bits
             # Generate the walking column pattern from col 0~ col100
             # address = (gen_channel_num << (row_bits + column_bits + word_bits)) | (gen_row_bits << (column_bits + word_bits)) | (line % column_partitions << word_bits) | gen_byte_bits
+            if(line // data_type_switch_threshold % 2 == 0):
+                data_type = 0
+            else:
+                data_type = 1
 
             if(gen_stall==True):
                 # stall_cycles = random.randint(0, 10)
                 stall_cycles = 0
-                file.write(f"{operation} {address} {stall_cycles}\n")
+                file.write(f"{operation} {address} {stall_cycles} {data_type}\n")
                 # Write the value of channel,row,column,word
                 file2.write("{0} {1} {2} {3}\n".format(gen_channel_num,gen_row_bits,gen_column_bits,gen_byte_bits))
             else:
-                file.write(f"{operation} {address}\n")
+                file.write(f"{operation} {address} {data_type}\n")
                 # Write the value of channel,row,column,word
                 file2.write("{0} {1} {2} {3}\n".format(gen_channel_num,gen_row_bits,gen_column_bits,gen_byte_bits))
 
 # Parameters
 num_traces = 1
-num_lines = 100000
+num_lines = 1024*16*2
 trace_file_dir = "../traces/"
 gen_stall = True
 pattern_type = 'latency_verification'
-load_store_switch_threshold = 50000
+load_store_switch_threshold = 1024*16
+data_type_switch_threshold = 1024*8
 gen_load_store_pattern = True
 
 random.seed(0)

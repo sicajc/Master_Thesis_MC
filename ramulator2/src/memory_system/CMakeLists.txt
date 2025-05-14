@@ -1,17 +1,3 @@
-add_library(ramulator-memorysystem OBJECT)
-
-target_sources(
-  ramulator-memorysystem PRIVATE
-  bh_memory_system.h
-  memory_system.h
-
-  impl/bh_DRAM_system.cpp
-  impl/dummy_memory_system.cpp
-  impl/generic_DRAM_system.cpp
-)
-
-target_link_libraries(
-  ramulator
-  PRIVATE
-  ramulator-memorysystem
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:bdddaddce39c16f495d77fe050aa47c093418c7c4606da107f3bef6bc5a29dc8
+size 311

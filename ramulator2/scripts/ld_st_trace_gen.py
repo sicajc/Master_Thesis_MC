@@ -92,11 +92,13 @@ def generate_st_ld_trace(filename,filename2,pattern_type,num_lines,gen_stall,loa
             if(gen_stall==True):
                 # stall_cycles = random.randint(0, 10)
                 stall_cycles = 0
-                file.write(f"{operation} {address} {stall_cycles}\n")
+                data_type = random.randint(0, 1)
+                file.write(f"{operation} {address} {stall_cycles} {data_type}\n")
                 # Write the value of channel,row,column,word
                 file2.write("{0} {1} {2} {3}\n".format(gen_channel_num,gen_row_bits,gen_column_bits,gen_byte_bits))
             else:
-                file.write(f"{operation} {address}\n")
+                data_type = random.randint(0, 1)
+                file.write(f"{operation} {address} {data_type}\n")
                 # Write the value of channel,row,column,word
                 file2.write("{0} {1} {2} {3}\n".format(gen_channel_num,gen_row_bits,gen_column_bits,gen_byte_bits))
 

@@ -24,6 +24,7 @@ struct Request {
 
   int type_id = -1;    // An identifier for the type of the request
   int source_id = -1;  // An identifier for where the request is coming from (e.g., which core)
+  int data_type = -1;  // An identifier for the data type of the request (weight 0 or KV$ 1)
 
   int command = -1;          // The command that need to be issued to progress the request
   int final_command = -1;    // The final command that is needed to finish the request
@@ -43,6 +44,7 @@ struct Request {
   Request(Addr_t addr, int type);
   Request(AddrVec_t addr_vec, int type);
   Request(Addr_t addr, int type, int source_id, std::function<void(Request&)> callback);
+  Request(Addr_t addr, int type, int data_type, int source_id, std::function<void(Request&)> callback);
   Request(Addr_t addr, int type, std::function<void(Request&)> callback);
 };
 

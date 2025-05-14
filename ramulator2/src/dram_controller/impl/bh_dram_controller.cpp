@@ -137,13 +137,15 @@ class BHDRAMController final : public IBHDRAMController, public Implementation {
       // 1. Serve completed reads
       serve_completed_reads();
 
-      m_refresh->tick();
+      
       m_scheduler->tick();
 
       // 2. Try to find a request to serve.
       ReqBuffer::iterator req_it;
       ReqBuffer* buffer = nullptr;
       bool request_found = schedule_request(req_it, buffer);
+
+      m_refresh->tick(req_it);
 
       // 2.1 RowPolicy
       m_rowpolicy->update(request_found, req_it);

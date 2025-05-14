@@ -1,10 +1,11 @@
 Frontend:
   impl: LoadStoreStallTrace
   clock_ratio: 3
-  num_expected_insts: 100000
+  num_expected_insts: 8764800
   debug: false
+  returned_trace_path: ../returned_trace/
   traces:
-    - ../traces/_ideal_sequential_trace_0.txt
+    - /home/Dram_controller/ramulator2/traces/_special_pattern_trace_0.txt
     # - /home/sicajc/user/sicajc/main/Senior_3D_DRAM/ramulator2/traces/trace_0.txt
     # - /home/sicajc/DRAM_PROJECT/Senior_3D_DRAM/ramulator2/traces/trace_1.txt
     # - /home/sicajc/DRAM_PROJECT/Senior_3D_DRAM/ramulator2/traces/trace_2.txt
@@ -38,22 +39,23 @@ MemorySystem:
       preset: DDR4_1Gb_1bank_x1024
       channel_width: 1024
       # preset: DDR4_2Gb_x4
-      channel: 1
+      channel: 4
       rank: 1
     timing:
       preset: DDR4_3DDRAM_1024
 
 
   Controller:
-    impl: Generic
+    impl: BankLevelController
     sample_time: 500
     bandwidth_record_file: ../cmd_records/bandwidth_record_ideal.txt
     Scheduler:
       impl: FCFS
     RefreshManager:
-      impl: AllBank
+      impl: AllBank                      # PartialRefresh AllBank
+      num_refresh_blocks: 4
     RowPolicy:
-      impl: OpenRowPolicy
+      impl: OpenRowPolicy                # AdaptiveRowPolicy ClosedRowPolicy
       cap: 4
     plugins:
       - ControllerPlugin:
@@ -66,4 +68,4 @@ MemorySystem:
           path: ../cmd_records/ideal_1024Mb_2ch.trace
 
   AddrMapper:
-    impl: ChRaBaRoCo
+    impl: RoBaRaCoCh
